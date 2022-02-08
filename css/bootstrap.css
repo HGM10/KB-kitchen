@@ -11462,7 +11462,7 @@ textarea.form-control-lg {
   .navegacion{
     position: absolute;
     top: 13%;
-    z-index: 10;
+    z-index: 11;
     width: 100%;
   }
 }
@@ -11498,6 +11498,7 @@ textarea.form-control-lg {
 ********************************/
 .hero{
   position: relative;
+  z-index: 5;
   background-image: url(../images/home-hero.webp);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -12072,7 +12073,6 @@ textarea.form-control-lg {
 }
 .contacto .card ul li:hover span{
   color: var(--rojo);
-  background-color: var(--azul);
   border: 2px solid var(--rojo);
 }
 .submitting{

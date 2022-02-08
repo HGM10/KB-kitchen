@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "bootstrap": "^5.1.3"
-  }
+  },
+  "name": "houstonkitchenandbaths",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "purgecss --css css/bootstrap.css --content index.html -o css/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HGM10/KB-kitchen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HGM10/KB-kitchen/issues"
+  },
+  "homepage": "https://github.com/HGM10/KB-kitchen#readme",
+  "description": ""
 }
